@@ -1,0 +1,16 @@
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\bin\Debug\CardsStore.Application.dll.config
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\bin\Debug\CardsStore.Application.dll
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\bin\Debug\CardsStore.Application.pdb
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\bin\Debug\Autofac.dll
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\bin\Debug\AutoMapper.dll
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\bin\Debug\CardsStore.Core.dll
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\bin\Debug\EntityFramework.dll
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\bin\Debug\CardsStore.Core.pdb
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\bin\Debug\Autofac.xml
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\bin\Debug\AutoMapper.xml
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\bin\Debug\EntityFramework.xml
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\obj\Debug\CardsStore.Application.csprojResolveAssemblyReference.cache
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\obj\Debug\CardsStore.Application.dll
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Application\obj\Debug\CardsStore.Application.pdb

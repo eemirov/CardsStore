@@ -1,0 +1,61 @@
+﻿@{
+	Layout = null;
+}
+
+@using CardsStore.Web.Utils
+@model CardsStore.Application.DTO.CardEditDto
+
+
+<div class="panel panel-default">
+	<div class="panel-heading">
+		<h3 class="panel-title">@Html.Raw(Model.ID.HasValue ? string.Format("Edit {0}", Model.Name) : "Create new card")</h3>
+	</div>
+	<div class="panel-body">
+		@using (Html.BeginForm("EditCard", "Home", FormMethod.Post, new {Id = "EditCard", @class = "form-horizontal" }))
+		{
+			@Html.HiddenFor(m => m.ID)
+			<div class="form-group row">
+				<div class="col-md-2">@Html.LabelFor(m => m.Name, "Name")</div>
+				<div class="col-md-10">
+					@Html.TextBoxFor(m => m.Name, new {@class = "form-control", required = "required"})
+				</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-md-2">@Html.LabelFor(m => m.Description, "Description")</div>
+				<div class="col-md-10">@Html.TextAreaFor(m => m.Description, new {@class = "form-control"})</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-md-2">@Html.LabelFor(m => m.WebSite, "Web Site")</div>
+				<div class="col-md-10">@Html.TextBoxFor(m => m.WebSite, new {@class = "form-control", @type = "url"})</div>
+			</div>
+			<div class="form-group row">
+				<div class="col-md-2">@Html.LabelFor(m => m.CategoryIds, "Categories")</div>
+				<div class="col-md-10">
+						@{
+							foreach (var item in Model.AllCategories)
+							{
+								<div class="checkbox">
+									@Html.CheckBox("Cat_" + item.ID, Model.CheckCategory(item.ID), new { @class ="CatItem", value = item.ID })
+
+									<label for="Cat_@item.ID">
+										@item.Name
+									</label>
+								</div>
+							}
+						}
+					@Html.HiddenFor(m => m.CategoryIds)
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+
+				</div>
+				<div class="col-md-10">
+					<button class="btn btn-primary" id="SaveButton">Save</button>
+				</div>
+			</div>
+		}
+	</div>
+</div>
+
+@Html.IncludeScript("~/Views/Home/_CreateOrEdit.js")

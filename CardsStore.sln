@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsStore.Core", "CardsStore.Core\CardsStore.Core.csproj", "{BFB641DF-BB22-459C-BA8E-61EB0BF6778A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsStore.Application", "CardsStore.Application\CardsStore.Application.csproj", "{8954C765-4F8B-46C4-8AFE-B6AF80693B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardsStore.Web", "CardsStore.Web\CardsStore.Web.csproj", "{01CA4FD6-956E-47A8-98ED-FD50462135C9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFB641DF-BB22-459C-BA8E-61EB0BF6778A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFB641DF-BB22-459C-BA8E-61EB0BF6778A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFB641DF-BB22-459C-BA8E-61EB0BF6778A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFB641DF-BB22-459C-BA8E-61EB0BF6778A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8954C765-4F8B-46C4-8AFE-B6AF80693B37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8954C765-4F8B-46C4-8AFE-B6AF80693B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8954C765-4F8B-46C4-8AFE-B6AF80693B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8954C765-4F8B-46C4-8AFE-B6AF80693B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CA4FD6-956E-47A8-98ED-FD50462135C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CA4FD6-956E-47A8-98ED-FD50462135C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CA4FD6-956E-47A8-98ED-FD50462135C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CA4FD6-956E-47A8-98ED-FD50462135C9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

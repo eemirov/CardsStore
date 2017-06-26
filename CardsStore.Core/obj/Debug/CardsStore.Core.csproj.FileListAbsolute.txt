@@ -1,0 +1,10 @@
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Core\bin\Debug\CardsStore.Core.dll.config
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Core\bin\Debug\CardsStore.Core.dll
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Core\bin\Debug\CardsStore.Core.pdb
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Core\bin\Debug\EntityFramework.dll
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Core\bin\Debug\EntityFramework.xml
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Core\obj\Debug\CardsStore.Core.csprojResolveAssemblyReference.cache
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Core\obj\Debug\CardsStore.Core.dll
+C:\Users\Enver\Documents\Visual Studio 2015\Projects\CardsStore\CardsStore.Core\obj\Debug\CardsStore.Core.pdb
