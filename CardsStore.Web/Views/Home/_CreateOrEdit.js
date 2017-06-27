@@ -9,10 +9,5 @@
 
 			return false;
 		});
-
-		$(".CatItem").click(function() {
-			$("#CategoryIds").val($("input[class=CatItem]:checked").map(
-				function () {return this.value;}).get().join(","));
-		});
 	});
 })()
