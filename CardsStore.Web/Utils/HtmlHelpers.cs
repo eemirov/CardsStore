@@ -26,13 +26,34 @@ namespace CardsStore.Web.Utils
 		}
 
 		public static MvcHtmlString CheckboxListFor<TModel, TProperty>(this HtmlHelper<TModel> htmlHelper, Expression<Func<TModel, TProperty>> expression,
-			IEnumerable<SelectListItem> selectList, object htmlAttributes = null)
+			IEnumerable<SelectListItem> selectList, string id, object htmlAttributes = null)
 		{
 			var outputHtml = new StringBuilder("");
+			
 			foreach (var item in selectList)
 			{
-				outputHtml.Append(htmlHelper.CheckBox(item.Group.Name, item.Selected, new {value = item.Value, text = item.Text}).ToHtmlString());
+				outputHtml.AppendFormat(@"
+								<div class='checkbox'>
+									{0}
+									<label for= '{1}'>
+										 {2}
+									 </label>
+								 </div>
+				 ",
+					htmlHelper.CheckBox("CheckBoxItem" + item.Value + id , item.Selected, new { value = item.Value, @class = "CheckItem" + id }).ToHtmlString(),
+					"CheckBoxItem" + item.Value + id,
+					item.Text
+				 );
 			}
+
+			outputHtml.Append(htmlHelper.HiddenFor(expression));
+
+			outputHtml.AppendFormat(@"<script type='text/javascript'>
+										$('.CheckItem{0}').click(function() {{
+											$('#{0}').val($('input[class=CheckItem{0}]:checked').map(
+												function() {{ return this.value; }}).get().join(','));
+										}});
+									</script>", id);
 			
 			return new MvcHtmlString(outputHtml.ToString());
 		}
